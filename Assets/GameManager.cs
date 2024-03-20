@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     }
     public void RandomNum()
     {
+
         array[0] = Random.Range(0, 10);
 
         for (int i = 1; i < 3; i++)
